@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push mshaikh/dojo-jump:latest'
+				sh 'docker push mshaikh911/dojo-jump:latest'
 			}
 		}
 	}
