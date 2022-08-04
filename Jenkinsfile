@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t chandradeoarya/dojo-jump:latest .'
+				sh 'sudo docker build -t chandradeoarya/dojo-jump:latest .'
 			}
 		}
 
