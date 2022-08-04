@@ -4,8 +4,8 @@ pipeline {
 
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('docker-hub')
-		AWS_ACCESS_KEY_ID     = credentials('jenkins-aws-secret-key-id')
-   AWS_SECRET_ACCESS_KEY = credentials('jenkins-aws-secret-access-key')
+		AWS_ACCESS_KEY_ID     = credentials('jenkins-access-key-id')
+   AWS_SECRET_ACCESS_KEY = credentials('jenkins-secret-access-key')
 	ARTIFACT_NAME = 'Dockerrun.aws.json'
 AWS_S3_BUCKET = 'dojo-jump-docker'
 AWS_EB_APP_NAME = '2048'
